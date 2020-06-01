@@ -2,10 +2,6 @@
   "name": "vuepress-theme-mediumish",
   "version": "1.0.32",
   "description": "Mediumish blog theme for VuePress",
-  "repository": {
-    "type": "git",
-    "url": "wowthemesnet/mediumish-vuepress-blog-theme"
-  },
   "keywords": [
     "vue",
     "vuepress",
@@ -14,8 +10,13 @@
     "blog",
     "theme"
   ],
+  "repository": {
+    "type": "git",
+    "url": "wowthemesnet/mediumish-vuepress-blog-theme"
+  },
   "license": "MIT",
   "author": "sal<wowthemesnet@gmail.com>",
+  "main": "index.js",
   "files": [
     "index.js",
     "styles",
@@ -24,12 +25,14 @@
     "fonts",
     "components"
   ],
-  "main": "index.js",
   "scripts": {
     "docs:build": "vuepress build docs --temp docs/.temp",
     "docs:dev": "vuepress dev docs --temp docs/.temp",
+    "build": "vuepress build docs",
+    "dev": "vuepress dev docs",
     "lint": "eslint . --ext .js,.vue",
     "prepublishOnly": "npm run test && npm run docs:build && conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
+    "start": "yarn dev",
     "test": "jest"
   },
   "husky": {
@@ -49,15 +52,15 @@
   },
   "dependencies": {
     "@vuepress/plugin-blog": "^1.9.2",
-    "@vuepress/plugin-medium-zoom": "1.0.0",
-    "@vuepress/plugin-nprogress": "1.0.0",
-    "@vuepress/plugin-pwa": "1.0.0",
-    "@vuepress/plugin-search": "1.0.0",
+    "@vuepress/plugin-medium-zoom": "1.5.0",
+    "@vuepress/plugin-nprogress": "1.5.0",
+    "@vuepress/plugin-pwa": "1.5.0",
+    "@vuepress/plugin-search": "1.5.0",
     "bootstrap-4-stylus": "^1.0.7",
     "dayjs": "^1.8.19",
     "lodash": "^4.17.15",
     "remove-markdown": "^0.3.0",
-    "vue-feather-icons": "^4.21.0",
+    "vue-feather-icons": "^5.0.0",
     "vuepress-plugin-smooth-scroll": "^0.0.9"
   },
   "devDependencies": {

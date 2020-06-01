@@ -1,7 +1,8 @@
 module.exports = {
   title: 'Mediumish',
-  base: '/vuepress-theme-mediumish/',
-  description: 'Blog example for Mediumish theme with VuePress',
+  base: '/',
+  dest: 'public',
+  description: 'Mediumish theme with VuePress and Forestry',
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),
   themeConfig: {
