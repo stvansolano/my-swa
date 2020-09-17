@@ -3,3 +3,5 @@ node_modules
 dist
 yarn.lock
 .DS_Store
+public/**
+package-lock.json

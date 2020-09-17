@@ -7,16 +7,6 @@ This is a free VuePress Bootstrap Blogging Theme, Medium styled, fully featured:
 
 ![mediumish vuepress blogging theme](https://wowthemesnet.github.io/vuepress-theme-mediumish/assets/img/screenshot.jpg)
 
-## Content Management
-
-<a href="https://app.forestry.io/quick-start?repo=dirtyf/mediumish-vuepress-blog-theme&engine=vuepress">
-    <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
-</a>
-
-Import in [Forestry](https://forestry.io) to be able to edit and preview your posts before publishing.
-
-![Edit in Forestry CMS](docs/.vuepress/public/assets/img/forestry-cms-mediumsih.jpg)
-
 ## Development
 
 ```
